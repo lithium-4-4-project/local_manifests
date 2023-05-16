@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="lithium-project" fetch="https://github.com/lithium-4-4-project" revision="twelve" />
+  <remote  name="lithium-project" fetch="https://github.com/lithium-4-4-project" revision="thirteen" />
 
   <!-- Device Specific -->
-  <project name="msm-4.4" path="kernel/xiaomi/msm8996" remote="lithium-project" />
+  <project name="android_kernel_xiaomi_msm8996" path="kernel/xiaomi/msm8996" remote="lithium-project" />
   <project name="android_device_xiaomi_lithium" path="device/xiaomi/lithium" remote="lithium-project" />
   <project name="android_device_xiaomi_msm8996-common" path="device/xiaomi/msm8996-common" remote="lithium-project" />
-  <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-19.0" />
+  <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-20" />
   <project name="proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="lithium-project" />
 </manifest>
