@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="lithium-project" fetch="https://github.com/lithium-4-4-project" revision="thirteen" />
+  <remote  name="lithium-project" fetch="https://github.com/lithium-4-4-project" revision="fourteen" />
+  <remote  name="inkypen-gitlab" fetch="https://gitlab.com/inkypen" revision="clang-r498229b" />
+
++  <!-- AOSP Clang 17.0.4 -->
++  <project name="prebuilts_clang_host_linux-x86" path="prebuilts/clang/host/linux-x86/clang-r498229b" remote="inkypen-gitlab" />
 
   <!-- Device Specific -->
   <project name="android_kernel_xiaomi_msm8996" path="kernel/xiaomi/msm8996" remote="lithium-project" />
   <project name="android_device_xiaomi_capricorn" path="device/xiaomi/capricorn" remote="lithium-project" />
   <project name="android_device_xiaomi_msm8996-common" path="device/xiaomi/msm8996-common" remote="lithium-project" />
-  <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-20" />
+  <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-21" />
   <project name="proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="lithium-project" />
 </manifest>
